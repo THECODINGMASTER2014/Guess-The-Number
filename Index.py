@@ -1,4 +1,4 @@
-print("THe Number you have to guess is between 0 and 100")
+print("The Number you have to guess is between 0 and 100")
 import random
 on = random.randint(0,100)
 if on % 2 == 0:
