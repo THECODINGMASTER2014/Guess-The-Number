@@ -1,3 +1,4 @@
+print("THe Number you have to guess is between 0 and 100")
 import random
 on = random.randint(0,100)
 if on % 2 == 0:
@@ -16,7 +17,7 @@ while c < 7 :
     print("The Guess is Too Small")
  elif gn > on :
     print("The Guess is Too High ")
- if  c == 6 :
+ if  c == 7  :
     print("Sorry. There are only 6 chances and You finished them All. You Lost 😞😓.")
 
 
