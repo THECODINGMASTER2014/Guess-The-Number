@@ -17,7 +17,7 @@ while c < 7 :
     print("The Guess is Too Small")
  elif gn > on :
     print("The Guess is Too High ")
- if  c == 7  :
+ if c == 7 and gn != on  :
     print("Sorry. There are only 6 chances and You finished them All. You Lost 😞😓.")
 
 
